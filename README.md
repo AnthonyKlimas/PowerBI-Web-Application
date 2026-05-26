@@ -118,7 +118,7 @@ Data & Analytics Infrastructure:
 
 ## How To Run
 
-Link: power-bi-web-application.vercel.app
+Link: http://power-bi-web-application.vercel.app
 
 ---
 
