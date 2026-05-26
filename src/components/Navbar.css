@@ -1,0 +1,19 @@
+nav
+{
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+nav a:hover
+{
+    transform: scale(1.3);
+    color: rgb(68, 68, 255);
+}

@@ -1,0 +1,76 @@
+@font-face
+{
+
+    font-family: programming;
+    src: url("./assets/fonts/myFont.ttf") format("truetype");
+
+}
+
+body
+{
+    font-family: Segoe UI;
+    background-color: lightblue;
+}
+
+.bigBox
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    background: rgb(121, 188, 195);
+
+    left: 100px;
+    top: 100px;
+
+    width: 1250px;
+    height: 800px;
+    z-index: 1;
+}
+
+
+.littleBox
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    background: rgb(121, 188, 195);
+
+    left: 1500px;
+    top: 100px;
+
+    width: 300px;
+    height: 800px;
+    z-index: 2;
+}
+
+.dashboardInfo
+{
+    font-size: 25px;
+    color:  rgb(68, 68, 255);
+    padding-left: 12px;
+}
+
+.infoBox ul
+{
+    padding-right: 10px;
+}
+
+.infoBox li
+{
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.dataImg
+{
+    width: 250px;
+    height: 390px;
+    padding-left: 25px;
+}
+
+
