@@ -13,7 +13,7 @@ function Insights()
         try
         {
             const response = await fetch(
-                "http://localhost:5000/insights"
+                "https://powerbi-web-application.onrender.com/insights"
             );
 
             const text = await response.text();
