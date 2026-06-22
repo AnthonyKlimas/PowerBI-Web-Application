@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import reactLogo from "../assets/images/react.png";
+
 import "./Navbar.css";
 
 function Navbar()
@@ -7,21 +9,41 @@ function Navbar()
     return (
         <nav>
 
-            <Link to="/executive">
-                <h1>Executive Dashboard</h1>
-            </Link>
+            <div className= "navContainer">
 
-            <Link to="/support">
-                <h1>Support Dashboard</h1>
-            </Link>
+                <div className= "logoContainer">
+
+                    <img src={reactLogo}/>
+
+                    <p>Data Analytics Web Application</p>
+
+                </div>
+
+                <div className= "linksContainer">
+
+                    <Link to="/executive">
+                        <p>Executive Dashboard</p>
+                    </Link>
+
+                    <Link to="/support">
+                        <p>Support Dashboard</p>
+                    </Link>
             
-            <Link to="/health">
-                <h1>Customer Health Dashboard</h1>
-            </Link>
+                    <Link to="/health">
+                        <p>Customer Health Dashboard</p>
+                    </Link>
 
-            <Link to="/insights">
-                <h1>AI Insights Dashboard</h1>
-            </Link>
+                    <Link to="/insights">
+                        <p>AI Insights Dashboard</p>
+                    </Link>
+
+                    <div>
+
+                    </div>
+
+                </div>
+
+            </div>
     
         </nav>
 

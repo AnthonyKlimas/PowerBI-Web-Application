@@ -4,9 +4,11 @@ function Support()
 {
     return (
         <>
-        <h1 className= "supportHeader">Customer Support Dashboard</h1>
-
-        <img className="supportdashImg" src={supportDashboard}/>
+        <div className="card">
+            <div className="bigBox">
+                <img className="supportdashImg" src={supportDashboard}/>
+            </div>
+        </div>
         </>
     );
 }

@@ -33,11 +33,9 @@ function Insights()
     }
 
     return (
-        <>
-            <h1 className="insightsHeader">
-                AI Generated Insights
-            </h1>
-
+    <>
+    <div className="card">
+        <div className="bigBox">
             <button onClick={generateSummary} disabled={loading}>
                 {loading ? "Generating Sumamry..." : "Generate Summary"}
             </button>
@@ -47,7 +45,9 @@ function Insights()
                 <p>{summary}</p>
 
             </div>
-        </>
+        </div>
+    </div>
+    </>
     );
 }
 
