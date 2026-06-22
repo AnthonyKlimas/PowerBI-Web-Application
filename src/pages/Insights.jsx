@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import { motion } from "framer-motion";
+
 function Insights()
 {
     const [summary, setSummary] = useState();
@@ -34,10 +36,35 @@ function Insights()
 
     return (
     <>
-    <div className="card">
+    <div className= "cardContainer">
+
+        <motion.div
+            initial = {{opacity: 0}}
+            animate = {{opacity: 1}}
+            exit ={{opacity: 0}}
+            transition = {{duration: .5}}
+        >
+
+        <h1 className= "header">
+            AI Insights Dashboard
+        </h1>
+
+    </motion.div>
+
+    <motion.div
+        initial = {{opacity: 0, x: 200}}
+        animate = {{opacity: 1, x: 0}}
+        exit ={{opacity: 0, x: -200}}
+        transition = {{duration: .5}}
+    >
+
+    
         <div className="bigBox">
+
             <button onClick={generateSummary} disabled={loading}>
-                {loading ? "Generating Sumamry..." : "Generate Summary"}
+
+                {loading ? "Generating Summary..." : "Generate Summary"}
+
             </button>
 
             <div className="insightCard">
@@ -46,6 +73,8 @@ function Insights()
 
             </div>
         </div>
+
+    </motion.div>
     </div>
     </>
     );

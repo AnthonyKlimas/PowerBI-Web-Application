@@ -37,10 +37,6 @@ function Navbar()
                         <p>AI Insights Dashboard</p>
                     </Link>
 
-                    <div>
-
-                    </div>
-
                 </div>
 
             </div>

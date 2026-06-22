@@ -6,21 +6,36 @@ function Dashboard()
 {
     return(
         <>
-            <motion.div
-                initial={{opacity: 0, x: 1}}
-                animate={{opacity: 1, x: 0}}
-                exit={{opacity: 0}}
-                transition={{duration: 1}}
-            
-            
-            >
+            <div className= "cardContainer">
+
+        <motion.div
+            initial = {{opacity: 0}}
+            animate = {{opacity: 1}}
+            exit ={{opacity: 0}}
+            transition = {{duration: .5}}
+        >
+
+        <h1 className= "header">
+            Executive Dashboard
+        </h1>
+
+        </motion.div>
+
+                <motion.div
+                    initial = {{opacity: 0, x: 200}}
+                    animate = {{opacity: 1, x: 0}}
+                    exit ={{opacity: 0, x: -200}}
+                    transition = {{duration: .5}}
+                >
         
-                <div className="bigBox">
+                    <div className="bigBox">
 
-                <img className="executivedashImg" src={executiveDashboard}/>
+                        <img className="executivedashImg" src={executiveDashboard}/>
 
-                </div>
-            </motion.div>
+                    </div>
+
+                </motion.div>
+            </div>
 
         </>
     );
