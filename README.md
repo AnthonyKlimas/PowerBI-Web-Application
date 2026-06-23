@@ -64,6 +64,8 @@ Purpose: Transform data into dashboard reports
 
 ### React Frontend
 Purpose: Deliver dashboards through modern web application
+<br>
+Most Relevant Files: [AppContent.jsx](src/AppContent.jsx), [Insights.jsx](src/pages/Insights.jsx)
 - Developed frontend with JavaScript and React library
 - Built reusable React components with useState and useEffect
 - Implemented routing with React Router
@@ -90,6 +92,8 @@ Relevant Files: [server.js](backend/server.js)
 
 ### Gemini AI Integration
 Purpose: Generate automated business insights
+<br>
+Relevant Files: [server.js](backend/server.js)
 - Analyzed dashboard screenshots
 - Generated executive summaries
 - Identified customer trends
