@@ -43,13 +43,7 @@ Purpose: Create a realistic customer analytics dataset
 - Generated 500+ synthetic customer records
 - Included customer satisfaction, purchases, support interactions, and regional data
 - Served as the foundation for business analysis
-<br>
-|
-<br>
-|
-<br>
-▼
-
+↓
 ### Power Query Data Transformation
 Purpose: Clean and prepare data for reporting
 - Removed Inconsistencies (Added relevant columns or deleted garbage data)
