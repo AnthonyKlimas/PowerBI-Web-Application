@@ -43,15 +43,25 @@ Purpose: Create a realistic customer analytics dataset
 - Generated 500+ synthetic customer records
 - Included customer satisfaction, purchases, support interactions, and regional data
 - Served as the foundation for business analysis
+
 ![Excel Spreadsheet](screenshots/excel_spreadsheet.png)
-⬇️
+
+|
+|
+▼
+
 ### Power Query Data Transformation
 Purpose: Clean and prepare data for reporting
 - Removed Inconsistencies (Added relevant columns or deleted garbage data)
 - Cleaned data formats
 - Created analysis ready datasets
+
 ![Power Query UI](screenshots/power_query.png)
-⬇️
+
+|
+|
+▼
+
 ### Power BI Dashboard Development
 Purpose: Transform data into dashboard reports
 - Developed DAX measures and calculated columns to generate business metrics
@@ -59,7 +69,11 @@ Purpose: Transform data into dashboard reports
 - Designed dashboards to support business decision-making through interactive reports
 ![Power BI Dax Measure](screenshots/dax_measure.png)
 ![Power BI Dashboard](screenshots/executive_dashboard.png)
-⬇️
+
+|
+|
+▼
+
 ### React Frontend
 Purpose: Deliver dashboards through modern web application
 - Developed frontend with JavaScript and React library
@@ -68,7 +82,11 @@ Purpose: Deliver dashboards through modern web application
 - Added animations using Framer Motion
 - Created responsive dashboard navigation
 ![React Component](screenshots/button_appearence.gif)
-⬇️
+
+|
+|
+▼
+
 ### Node.js, Express & REST APIs
 Purpose: Process AI requests and connect frontend services
 - Developed backend services using JavaScript, Node.js, and Express
@@ -77,7 +95,11 @@ Purpose: Process AI requests and connect frontend services
 - Integrated Google Gemini AI to generate business insights
 - Implemented secure client-server communication using CORS
 ![Server Backend](screenshots/server_backend.gif)
-⬇️
+
+|
+|
+▼
+
 ### Gemini AI Integration
 Purpose: Generate automated business insights
 - Analyzed dashboard screenshots
