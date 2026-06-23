@@ -20,12 +20,13 @@ This project demonstrates business intelligence, data analytics, full-stack web 
 ---
 
 ## Technical Skills Demonstrated
-- Power BI Dashboard Development
+- Excel Data Modeling and Dataset Creation
 - Power Query Data Transformation
 - DAX Measures and Calculated Columns
 - Data Visualization and Reporting
+- Power BI Dashboard Development
 - React Frontend Development
-- JavaScript Programming
+- JavaScript Development
 - Node.js Backend Development
 - RESTFUL API Development
 - Frontend/Backend Integration
@@ -35,40 +36,55 @@ This project demonstrates business intelligence, data analytics, full-stack web 
 
 ---
 
-## Technologies and Concepts Explained
+## Development Pipeline
 
-### Power BI
-- Imported and transformed an Excel customer dataset using Power Query
-- Cleaned, organized, and prepared data for analysis and reporting
+### Excel Dataset Creation
+Purpose: Create a realistic customer analytics dataset
+- Generated 500+ synthetic customer records
+- Included customer satisfaction, purchases, support interactions, and regional data
+- Served as the foundation for business analysis
+![Excel Spreadsheet](screenshots/excel_spreadsheet.png)
+⬇️
+### Power Query Data Transformation
+Purpose: Clean and prepare data for reporting
+- Removed Inconsistencies (Added relevant columns or deleted garbage data)
+- Cleaned data formats
+- Created analysis ready datasets
+![Power Query UI](screenshots/power_query.png)
+⬇️
+### Power BI Dashboard Development
+Purpose: Transform data into dashboard reports
 - Developed DAX measures and calculated columns to generate business metrics
 - Created Executive, Customer Support, and Customer Health dashboards
 - Designed dashboards to support business decision-making through interactive reports
-
-### React
-- Developed a web application to present PowerBI dashboards through an intuitive user interface
-- Implemented component-based architecture to create reusable UI elements and pages
-- Utilized React Router to provide navigation between dashboard views and AI insights
-- Managed application state using React Hooks such as useState
-- Dynamically updated UI content based on API responses from the backend
-- Created a responsive dashboard experience that separates presentation logic from backend services
-
-### JavaScript
-- Implemented frontend application logic and user interactions
-- Utilized asynchronous programming concepts with async/await and the Fetch API
-- Processed API responses and dynamically updated dashboard content
-- Managed user-triggered events such as generating AI-powered executive summaries
-- Integrated frontend components with backend REST API endpoints
-- Applied modern ES6+ JavaScript syntax and programming practices
-
-### Node.js, Express, and REST APIs
-- Developed a backend server using Node.js and Express
+![Power BI Dax Measure](screenshots/dax_measure.png)
+![Power BI Dashboard](screenshots/executive_dashboard.png)
+⬇️
+### React Frontend
+Purpose: Deliver dashboards through modern web application
+- Developed frontend with JavaScript and React library
+- Built reusable React components with useState and useEffect
+- Implemented routing with React Router
+- Added animations using Framer Motion
+- Created responsive dashboard navigation
+![React Component](screenshots/button_appearence.gif)
+⬇️
+### Node.js, Express & REST APIs
+Purpose: Process AI requests and connect frontend services
+- Developed backend services using JavaScript, Node.js, and Express
 - Created RESTful API endpoints to handle frontend requests
-- Implemented client-server communication between the React frontend and Express backend
-- Integrated Google Gemini AI to analyze dashboard images and generate business insights
-- Processed multiple dashboard images through AI-powered image analysis workflows
-- Utilized middleware such as CORS to enable secure communication between frontend and backend services
-- Designed a scalable backend architecture capable of supporting future analytics and AI features
-
+- Utilized async/await and the Fetch API for asynchronous operations
+- Integrated Google Gemini AI to generate business insights
+- Implemented secure client-server communication using CORS
+![Server Backend](screenshots/server_backend.gif)
+⬇️
+### Gemini AI Integration
+Purpose: Generate automated business insights
+- Analyzed dashboard screenshots
+- Generated executive summaries
+- Identified customer trends
+- Produced strategic recommendations
+![Server Backend](screenshots/gemini_integration.png)
 ---
 
 ## Features
