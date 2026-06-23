@@ -43,25 +43,24 @@ Purpose: Create a realistic customer analytics dataset
 - Generated 500+ synthetic customer records
 - Included customer satisfaction, purchases, support interactions, and regional data
 - Served as the foundation for business analysis
-<br>
+
 ↓
-<br>
+
 ### Power Query Data Transformation
 Purpose: Clean and prepare data for reporting
 - Removed Inconsistencies (Added relevant columns or deleted garbage data)
 - Cleaned data formats
 - Created analysis ready datasets
-<br>
+
 ↓
-<br>
+
 ### Power BI Dashboard Development
 Purpose: Transform data into dashboard reports
 - Developed DAX measures and calculated columns to generate business metrics
 - Created Executive, Customer Support, and Customer Health dashboards
 - Designed dashboards to support business decision-making through interactive reports
-<br>
+
 ↓
-<br>
 
 ### React Frontend
 Purpose: Deliver dashboards through modern web application
@@ -74,9 +73,9 @@ Purpose: Deliver dashboards through modern web application
 <p align="center">
     <img src="screenshots/button_appearence.gif" width="800">
 </p>
-<br>
+
 ↓
-<br>
+
 ### Node.js, Express & REST APIs
 Purpose: Process AI requests and connect frontend services
 - Developed backend services using JavaScript, Node.js, and Express
