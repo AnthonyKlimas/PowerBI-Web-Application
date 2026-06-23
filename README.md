@@ -84,10 +84,6 @@ Purpose: Process AI requests and connect frontend services
 - Integrated Google Gemini AI to generate business insights
 - Implemented secure client-server communication using CORS
 
-<p align="center">
-    <img src="screenshots/server_backend.gif" width="800">
-</p>
-
 ↓
 
 ### Gemini AI Integration
