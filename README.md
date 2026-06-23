@@ -83,6 +83,7 @@ Purpose: Process AI requests and connect frontend services
 - Utilized async/await and the Fetch API for asynchronous operations
 - Integrated Google Gemini AI to generate business insights
 - Implemented secure client-server communication using CORS
+[server.js](backend/server.js)
 
 ↓
 
