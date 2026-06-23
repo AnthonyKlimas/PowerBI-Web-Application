@@ -95,15 +95,6 @@ Purpose: Generate automated business insights
 
 ---
 
-## Features
-- Interactive Executive, Customer Support, and Customer Health dashboards built in Power BI
-- React-based frontend for dashboard navigation and presentation
-- AI-generated executive summaries powered by Google Gemini
-- RESTful API communication between React frontend and Express backend
-- Customer satisfaction, revenue, and support ticket analysis
-
----
-
 ## Architecture
 
 Front-End Infrastructure:
