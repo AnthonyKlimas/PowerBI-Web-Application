@@ -11,22 +11,15 @@ This project demonstrates business intelligence, data analytics, full-stack web 
 
 ## Application Preview
 
-### Executive Dashboard
-![Executive Dashboard](screenshots/executive_dashboard.png)
+### Application Navigation
+![Application Navigation](screenshots/application_navigation.gif)
 
-### Customer Support Dashboard
-![Customer Support Dashboard](screenshots/support_dashboard.png)
-
-### Customer Health Dashboard
-![Customer Health Dashboard](screenshots/customer_health_dashboard.png)
-
-### PowerBI User Interface
-![PowerBI User Interface](screenshots/powerbi.png)
+### AI-generated Business Insights
+![Generate Summary](screenshots/generate_summary.gif)
 
 ---
 
 ## Technical Skills Demonstrated
-- Data Analysis and Buisness Intelligence
 - Power BI Dashboard Development
 - Power Query Data Transformation
 - DAX Measures and Calculated Columns
@@ -34,13 +27,11 @@ This project demonstrates business intelligence, data analytics, full-stack web 
 - React Frontend Development
 - JavaScript Programming
 - Node.js Backend Development
-- Express REST API Development
+- RESTFUL API Development
 - Frontend/Backend Integration
 - Asynchronous Programming (Fetch API, Async/Await)
 - AI and Large Language Model (LLM) Integration
-- RESTFUL API development
 - Full-Stack Application Architecture
-- Git and GitHub Version Control
 
 ---
 
