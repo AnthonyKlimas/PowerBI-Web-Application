@@ -45,6 +45,7 @@ Purpose: Create a realistic customer analytics dataset
 - Served as the foundation for business analysis
 <br>
 ↓
+<br>
 ### Power Query Data Transformation
 Purpose: Clean and prepare data for reporting
 - Removed Inconsistencies (Added relevant columns or deleted garbage data)
@@ -52,6 +53,7 @@ Purpose: Clean and prepare data for reporting
 - Created analysis ready datasets
 <br>
 ↓
+<br>
 ### Power BI Dashboard Development
 Purpose: Transform data into dashboard reports
 - Developed DAX measures and calculated columns to generate business metrics
@@ -59,6 +61,7 @@ Purpose: Transform data into dashboard reports
 - Designed dashboards to support business decision-making through interactive reports
 <br>
 ↓
+<br>
 ### React Frontend
 Purpose: Deliver dashboards through modern web application
 - Developed frontend with JavaScript and React library
@@ -72,6 +75,7 @@ Purpose: Deliver dashboards through modern web application
 </p>
 <br>
 ↓
+<br>
 ### Node.js, Express & REST APIs
 Purpose: Process AI requests and connect frontend services
 - Developed backend services using JavaScript, Node.js, and Express
@@ -82,6 +86,7 @@ Purpose: Process AI requests and connect frontend services
 ![Server Backend](screenshots/server_backend.gif)
 <br>
 ↓
+<br>
 ### Gemini AI Integration
 Purpose: Generate automated business insights
 - Analyzed dashboard screenshots
