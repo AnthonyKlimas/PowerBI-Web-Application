@@ -83,10 +83,13 @@ Purpose: Process AI requests and connect frontend services
 - Utilized async/await and the Fetch API for asynchronous operations
 - Integrated Google Gemini AI to generate business insights
 - Implemented secure client-server communication using CORS
-![Server Backend](screenshots/server_backend.gif)
-<br>
+
+<p align="center">
+    <img src="screenshots/server_backend.gif" width="800">
+</p>
+
 ↓
-<br>
+
 ### Gemini AI Integration
 Purpose: Generate automated business insights
 - Analyzed dashboard screenshots
