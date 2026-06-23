@@ -62,6 +62,7 @@ Purpose: Transform data into dashboard reports
 <br>
 ↓
 <br>
+
 ### React Frontend
 Purpose: Deliver dashboards through modern web application
 - Developed frontend with JavaScript and React library
