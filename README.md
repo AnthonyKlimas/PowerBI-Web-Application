@@ -43,11 +43,11 @@ Purpose: Create a realistic customer analytics dataset
 - Generated 500+ synthetic customer records
 - Included customer satisfaction, purchases, support interactions, and regional data
 - Served as the foundation for business analysis
-
-![Excel Spreadsheet](screenshots/excel_spreadsheet.png)
-
+<br>
 |
+<br>
 |
+<br>
 ▼
 
 ### Power Query Data Transformation
@@ -55,11 +55,11 @@ Purpose: Clean and prepare data for reporting
 - Removed Inconsistencies (Added relevant columns or deleted garbage data)
 - Cleaned data formats
 - Created analysis ready datasets
-
-![Power Query UI](screenshots/power_query.png)
-
+<br>
 |
+<br>
 |
+<br>
 ▼
 
 ### Power BI Dashboard Development
@@ -67,11 +67,15 @@ Purpose: Transform data into dashboard reports
 - Developed DAX measures and calculated columns to generate business metrics
 - Created Executive, Customer Support, and Customer Health dashboards
 - Designed dashboards to support business decision-making through interactive reports
-![Power BI Dax Measure](screenshots/dax_measure.png)
-![Power BI Dashboard](screenshots/executive_dashboard.png)
 
+![Power BI Dax Measure](screenshots/dax_measure.png)
+
+![Power BI Dashboard](screenshots/executive_dashboard.png)
+<br>
 |
+<br>
 |
+<br>
 ▼
 
 ### React Frontend
@@ -81,10 +85,13 @@ Purpose: Deliver dashboards through modern web application
 - Implemented routing with React Router
 - Added animations using Framer Motion
 - Created responsive dashboard navigation
+<br>
 ![React Component](screenshots/button_appearence.gif)
-
+<br>
 |
+<br>
 |
+<br>
 ▼
 
 ### Node.js, Express & REST APIs
@@ -95,9 +102,11 @@ Purpose: Process AI requests and connect frontend services
 - Integrated Google Gemini AI to generate business insights
 - Implemented secure client-server communication using CORS
 ![Server Backend](screenshots/server_backend.gif)
-
+<br>
 |
+<br>
 |
+<br>
 ▼
 
 ### Gemini AI Integration
@@ -106,7 +115,7 @@ Purpose: Generate automated business insights
 - Generated executive summaries
 - Identified customer trends
 - Produced strategic recommendations
-![Server Backend](screenshots/gemini_integration.png)
+
 ---
 
 ## Features
