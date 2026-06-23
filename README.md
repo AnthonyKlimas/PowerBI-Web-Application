@@ -49,13 +49,7 @@ Purpose: Clean and prepare data for reporting
 - Removed Inconsistencies (Added relevant columns or deleted garbage data)
 - Cleaned data formats
 - Created analysis ready datasets
-<br>
-|
-<br>
-|
-<br>
-▼
-
+↓
 ### Power BI Dashboard Development
 Purpose: Transform data into dashboard reports
 - Developed DAX measures and calculated columns to generate business metrics
