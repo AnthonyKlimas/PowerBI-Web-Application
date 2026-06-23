@@ -7,7 +7,6 @@ import Insights from "./pages/Insights";
 import Dashboard from "./pages/Dashboard";
 import Support from "./pages/Support";
 import Health from "./pages/Health";
-import dataImg from "./assets/images/dataImg.png";
 import background from "./assets/images/background.png";
 
 
