@@ -18,26 +18,10 @@
     height: 675px;
 }
 
-.healthHeader
-{
-    margin-top: -1px;
-    margin-bottom: 10px;
-    font-size: 50px;
-    color: rgb(68, 68, 255);
-}
-
 .supportdashImg
 {
     width: 1150px;
     height: 675px;
-}
-
-.supportHeader
-{
-    margin-top: -1px;
-    margin-bottom: 10px;
-    font-size: 50px;
-    color: rgb(68, 68, 255);
 }
 
 .insightsHeader
@@ -48,11 +32,3 @@
     color: rgb(68, 68, 255);
 }
 
-.insightCard
-{
-    width: 800px;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 2;
-}

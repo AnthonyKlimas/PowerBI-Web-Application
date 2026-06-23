@@ -15,7 +15,7 @@ function Health()
         >
 
         <h1 className= "header">
-            Health Dashboard
+            Customer Health Dashboard
         </h1>
 
         </motion.div>

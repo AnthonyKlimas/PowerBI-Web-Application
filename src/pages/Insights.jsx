@@ -61,17 +61,22 @@ function Insights()
     
         <div className="bigBox">
 
-            <button onClick={generateSummary} disabled={loading}>
+            <div className= "insightsContainer">
 
-                {loading ? "Generating Summary..." : "Generate Summary"}
+                <button className="generateButton" onClick={generateSummary} disabled={loading}>
 
-            </button>
+                    {loading ? "Generating Summary..." : "Generate Summary"}
 
-            <div className="insightCard">
+                </button>
 
-                <p>{summary}</p>
+                <div className="insightCard">
+
+                    <p>{summary}</p>
+
+                </div>
 
             </div>
+
         </div>
 
     </motion.div>
