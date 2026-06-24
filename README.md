@@ -101,31 +101,9 @@ Relevant Files: [server.js](backend/server.js)
 
 ---
 
-## Architecture
+## System Architecture
 
-Front-End Infrastructure:
-- React single-page application
-- React Router for client-side navigation between dashboards
-- JavaScript and JSX component architecture
-- CSS-based user interface styling and layout
-- Dashboard image presentation and AI insights interface
-
-Back-End Infrastructure:
-- Node.js runtime environment
-- Express server for RESTful API endpoints
-- CORS middleware for frontend/backend communication
-- Google Gemini AI integration for dashboard image analysis
-- Environment variable configuration using dotenv
-- File system processing for dashboard image retrieval and AI analysis
-
-Data & Analytics Infrastructure:
-- Microsoft Excel dataset containing 500+ customer records
-- Power Query data cleaning and transformation workflows
-- DAX measures and calculated columns
-- Power BI Executive Dashboard
-- Power BI Customer Support Dashboard
-- Power BI Customer Health Dashboard
-- AI-generated executive summaries and business recommendations
+![System Architecture](screenshots/system_architecture.png)
 
 ---
 
