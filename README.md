@@ -75,7 +75,7 @@ Most Relevant Files: [AppContent.jsx](src/AppContent.jsx), [Insights.jsx](src/pa
 - Added animations using Framer Motion
 - Created responsive dashboard navigation
 
-<p align="center">
+<p>
     <img src="screenshots/button_appearence.gif" width="400">
 </p>
 
@@ -101,7 +101,9 @@ Relevant Files: [server.js](backend/server.js)
 - Generated executive summaries
 - Identified customer trends
 - Produced strategic recommendations
-
+```JavaScript
+const ai = new GoogleGenAI({apiKey: process.env.GEMINI_API_KEY});
+```
 ---
 
 ## System Architecture
