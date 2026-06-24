@@ -59,6 +59,9 @@ Purpose: Transform data into dashboard reports
 - Developed DAX measures and calculated columns to generate business metrics
 - Created Executive, Customer Support, and Customer Health dashboards
 - Designed dashboards to support business decision-making through interactive reports
+```DAX
+At_Risk_Customers = CALCULATE(COUNTROWS(CustomerData), CustomerData[Customer Health] = "At Risk")
+```
 
 ↓
 
@@ -73,7 +76,7 @@ Most Relevant Files: [AppContent.jsx](src/AppContent.jsx), [Insights.jsx](src/pa
 - Created responsive dashboard navigation
 
 <p align="center">
-    <img src="screenshots/button_appearence.gif" width="800">
+    <img src="screenshots/button_appearence.gif" width="400">
 </p>
 
 ↓
